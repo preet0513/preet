@@ -12,8 +12,8 @@ function toggleResume() {
 // Download Resume as PDF file
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'Resume.pdf';   // 👉 Correct relative path
-  link.download = 'Resume.pdf';
+  link.href = 'resume.pdf';   // 👉 Correct relative path
+  link.download = 'resume.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
