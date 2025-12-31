@@ -12,12 +12,13 @@ function toggleResume() {
 // Download Resume as PDF file
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = '/Resume.pdf';   // 👈 FULL ROOT PATH
+  link.href = 'Resume.pdf';   // 👉 Correct relative path
   link.download = 'Resume.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 }
+
 
 // Smooth Scroll for Navigation Links
 // Smooth Scroll for Navigation Links
