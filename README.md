@@ -101,7 +101,7 @@ Steps to contribute:
 
 ## 👨‍💻 Author
 
-**Priyanshu**
+**Priyanshu chugh**
 
 ---
 
